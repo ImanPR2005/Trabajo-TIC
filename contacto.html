@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Contacto y preguntas sobre el 5G">
+<meta name="author" content="Iman David Pacompia Reymundo">
+<title>Redes 5G - Contacto</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!-- Cabecera -->
+<div class="cabecera" id="arriba">
+<h1>Contacto</h1>
+<p class="mayus">Preguntas y mensajes</p>
+</div>
+<nav><ul><li><a href="index.html">Inicio</a></li><li><a href="tecnologia.html">Cómo funciona</a></li><li><a href="contacto.html" class="actual">Contacto</a></li></ul></nav>
+<div class="contenido">
+
+<h2>Preguntas frecuentes</h2>
+<dl>
+<dt>¿Necesito un celular especial?</dt><dd>Sí, tu celular tiene que ser compatible con 5G y tu plan también. Además, tiene que haber cobertura en tu zona.</dd>
+<dt>¿El 5G reemplaza al Wi-Fi?</dt><dd>No. Se complementan: el Wi-Fi sirve dentro de casa y el 5G cuando estás en la calle.</dd>
+<dt>¿Qué significan estas siglas?</dt><dd><abbr title="Short Message Service">SMS</abbr>: mensajes de texto. <abbr title="Internet of Things">IoT</abbr>: internet de las cosas. <abbr title="Wireless Fidelity">Wi-Fi</abbr>: internet inalámbrico.</dd>
+</dl>
+
+<h2>Envíanos un mensaje</h2>
+<form action="#" method="post">
+<fieldset><legend>Tus datos</legend>
+<label for="nombre">Nombre:</label><input type="text" id="nombre" name="nombre" size="30" maxlength="40">
+<label for="correo">Correo electrónico:</label><input type="email" id="correo" name="correo">
+<label for="clave">Contraseña:</label><input type="password" id="clave" name="clave">
+<label for="fecha">Fecha de nacimiento:</label><input type="date" id="fecha" name="fecha">
+</fieldset>
+<fieldset><legend>Tus intereses</legend>
+<p>¿Tienes un plan con 5G?</p>
+<input type="radio" name="plan" id="si" value="si" checked> <label for="si" class="en-linea">Sí</label>
+<input type="radio" name="plan" id="no" value="no"> <label for="no" class="en-linea">No</label>
+<p>¿Qué te gustaría aprender?</p>
+<input type="checkbox" name="tema" id="t1" value="senal"> <label for="t1" class="en-linea">Tipos de señal</label><br>
+<input type="checkbox" name="tema" id="t2" value="antenas" checked> <label for="t2" class="en-linea">Cómo funcionan las antenas</label><br>
+<input type="checkbox" name="tema" id="t3" value="iot"> <label for="t3" class="en-linea">Internet de las cosas</label>
+<label for="nivel">Tu nivel:</label>
+<select id="nivel" name="nivel"><option value="b">Principiante</option><option value="i" selected>Intermedio</option><option value="a">Avanzado</option></select>
+<label for="archivo">Adjuntar archivo:</label><input type="file" id="archivo" name="archivo">
+</fieldset>
+<fieldset><legend>Mensaje</legend>
+<label for="msg">Escribe tu consulta:</label><textarea id="msg" name="msg" rows="5" cols="40"></textarea>
+<input type="hidden" name="origen" value="contacto">
+<input type="submit" value="Enviar mensaje">
+</fieldset>
+</form>
+
+<p><a href="#arriba">Volver arriba</a></p>
+</div>
+<div class="pie"><p>&copy; 2026 Redes 5G. Autor: Iman David Pacompia Reymundo</p></div>
+<script src="java.js"></script>
+</body>
+</html>
