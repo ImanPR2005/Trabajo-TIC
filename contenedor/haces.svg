@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 230" width="520" height="230"><rect width="520" height="230" fill="#ffffff"/>
+    <polygon points="64,115 300,5 300,225" fill="#4d5a78" opacity=".12"/>
+    <rect x="20" y="60" width="44" height="110" rx="4" fill="#101c3a"/>
+    <g fill="#0a7487"><circle cx="34" cy="80" r="4"/><circle cx="50" cy="80" r="4"/><circle cx="34" cy="100" r="4"/><circle cx="50" cy="100" r="4"/><circle cx="34" cy="120" r="4"/><circle cx="50" cy="120" r="4"/><circle cx="34" cy="140" r="4"/><circle cx="50" cy="140" r="4"/><circle cx="34" cy="158" r="4"/><circle cx="50" cy="158" r="4"/></g>
+    <g fill="#5b3df5" opacity=".4"><polygon points="64,115 385,28 420,55"/><polygon points="64,115 425,102 425,128"/><polygon points="64,115 385,190 420,205"/></g>
+    <g fill="#0a7487"><circle cx="440" cy="42" r="12"/><circle cx="440" cy="115" r="12"/><circle cx="440" cy="198" r="12"/></g>
+    <text x="20" y="40" font-size="14" fill="#101c3a" font-family="Segoe UI,Arial,sans-serif" font-weight="600">Antena masiva</text>
+    <text x="140" y="222" font-size="13" fill="#4d5a78" font-family="Segoe UI,Arial,sans-serif">Zona gris: antena tradicional</text>
+   </svg>

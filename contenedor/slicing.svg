@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 240" width="520" height="240"><rect width="520" height="240" fill="#ffffff"/>
+    <polygon points="60,70 120,20 440,20 380,70" fill="#5b3df5"/>
+    <polygon points="60,130 120,80 440,80 380,130" fill="#0a7487"/>
+    <polygon points="60,190 120,140 440,140 380,190" fill="#f2b134"/>
+    <g font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle"><text x="250" y="50" fill="#fff">Banda ancha: video y juegos</text><text x="250" y="110" fill="#fff">Baja latencia: autos y cirugía remota</text><text x="250" y="170" fill="#0d1a3c">Internet de las cosas: sensores</text></g>
+    <rect x="30" y="205" width="420" height="10" rx="3" fill="#101c3a"/>
+    <text x="30" y="233" font-size="13" fill="#4d5a78" font-family="Segoe UI,Arial,sans-serif">Una sola red física</text>
+   </svg>
